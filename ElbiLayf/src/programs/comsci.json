@@ -1,0 +1,27 @@
+[
+    {
+        "id" : "CMSC12",
+        "title" : "Computer Science 12",
+        "prereq" : []
+    },
+    {
+        "id" : "CMSC21",
+        "title" : "Computer Science 21",
+        "prereq" : ["CMSC12"]
+    },
+    {
+        "id" : "CMSC22",
+        "title" : "Computer Science 22",
+        "prereq" : ["CMSC12"]
+    },
+    {
+        "id" : "CMSC130",
+        "title" : "Computer Science 130",
+        "prereq" : ["CMSC21"]
+    },
+    {
+        "id" : "CMSC123",
+        "title" : "Computer Science 123",
+        "prereq" : ["CMSC21", "CMSC130"]
+    }
+]
